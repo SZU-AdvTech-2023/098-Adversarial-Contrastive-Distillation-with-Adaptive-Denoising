@@ -1,0 +1,14 @@
+nohup: ignoring input
+==> Load Test Data
+Files already downloaded and verified
+==> Load Model
+resnet18
+./ResNet18Result/Trade-off0.7331natural acc0.8452robust acc0.621.pth
+CW Test Accuracy: 51.02%
+/home/data1/zwl/anaconda3/envs/CRDND/lib/python3.7/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+Natural Test Accuracy: 84.52%
+FGSM without Random Start Test Accuracy: 65.44%
+0.7498
+PGD20 Madry Test Accuracy: 60.76%
+PGD20 trades Test Accuracy: 62.12%
